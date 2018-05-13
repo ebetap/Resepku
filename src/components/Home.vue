@@ -42,7 +42,7 @@
             </div>
 
             <div class="box">
-                <a href="details2.html">
+                <a href="/recipes/details">
                     <div class="card">
                         <div class="card-thumb">
                             <img src="../assets/resep/Cut2.jpg" alt="Thumb Image">
@@ -65,7 +65,7 @@
             </div>
 
             <div class="box">
-                <a href="#">
+                <a href="/recipes/details">
                     <div class="card">
                         <div class="card-thumb">
                             <img src="../assets/resep/Thuhjjmbd.jpg" alt="Thumb Image">
