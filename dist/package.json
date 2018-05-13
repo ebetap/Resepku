@@ -4,7 +4,7 @@
   "description": "Awesome PWA Project",
   "main": "service-worker.js",
   "scripts": {
-    "postinstall": "npm install express",
+    "postinstall": "npm install express --save --save-exact",
     "start": "node ../server.js"
   },
   "author": "Beta Priyoko",
