@@ -107,7 +107,7 @@ const webpackConfig = merge(baseWebpackConfig, {
       stripPrefix: 'dist/',
       runtimeCaching:[
         {
-          urlPattern: /^http:\/\/localhost:3000\/resep/,
+          urlPattern: /^https:\/\/api-resepku-id.herokuapp.com\/resep/,
           handler: 'networkFirst',
           option: {
             cache:{
