@@ -5,6 +5,7 @@
   "author": "Beta Priyoko <beta.priyoko@students.amikom.ac.id>",
   "private": true,
   "scripts": {
+    "postinstall": "npm install express",
     "dev": "node build/dev-server.js",
     "start": "node server.js",
     "build": "node build/build.js"
