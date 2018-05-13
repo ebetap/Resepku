@@ -391,10 +391,16 @@ header a:hover{
     width: 50%
 }
 
-.bahan,.cara{
+.bahan{
     float: left;
     overflow:hidden;
     padding: 25px;
+}
+
+.cara{
+    float: left;
+    overflow: hidden;
+    padding: 0 5px 0 25px;
 }
 
 .bahan{
