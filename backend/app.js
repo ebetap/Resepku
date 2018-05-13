@@ -1,6 +1,8 @@
 const express = require('express');
 const app = express();
 
+var port = process.env.PORT || 3000;
+
 // enable cors
 app.use(function(req,res,next){
 	//Website that is allowed to connect
@@ -53,7 +55,7 @@ app.get('/resep', function(req,res){
 	res.json(data1);
 });
 
-app.listen(3000,function(){
+app.listen(port,function(){
 	console.log('Server started at port 3000');
 });
 

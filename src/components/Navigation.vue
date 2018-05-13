@@ -42,7 +42,8 @@
 <script>
 	export default{
 		name : 'navigation',
-		methods:{
+		methods:
+		{
 			openSlideMenu(){
 				document.getElementById('side-menu').style.width= '100vw';
 			},
