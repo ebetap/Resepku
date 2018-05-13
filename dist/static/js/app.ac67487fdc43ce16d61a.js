@@ -1003,7 +1003,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Recipedetails_vue__ = __webpack_require__(17);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_bcdd5daa_hasScoped_false_transformToRequire_video_src_poster_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Recipedetails_vue__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_0a9964ea_hasScoped_true_transformToRequire_video_src_poster_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Recipedetails_vue__ = __webpack_require__(38);
 function injectStyle (ssrContext) {
   __webpack_require__(37)
 }
@@ -1018,12 +1018,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = null
+var __vue_scopeId__ = "data-v-0a9964ea"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Recipedetails_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_bcdd5daa_hasScoped_false_transformToRequire_video_src_poster_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Recipedetails_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_0a9964ea_hasScoped_true_transformToRequire_video_src_poster_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Recipedetails_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -1044,7 +1044,7 @@ var Component = normalizeComponent(
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"recipedetails"},[_c('section',{attrs:{"id":"details"}},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"box-details box-details-title"},[_c('keep-alive',[_c('h1',{staticClass:"title-details"},[_vm._v(_vm._s(_vm.resep.title))])]),_vm._v(" "),_c('div',{staticClass:"author"},[_c('keep-alive',[_c('h3',[_vm._v("by "+_vm._s(_vm.resep.author))])])],1)],1),_vm._v(" "),_vm._m(0)])]),_vm._v(" "),_c('section',{attrs:{"id":"bahan-cara"}},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"bahan"},[_vm._m(1),_vm._v(" "),_c('ul',_vm._l((_vm.resep.ingredients),function(ingredient){return _c('li',[_vm._v(_vm._s(ingredient.ing))])}))]),_vm._v(" "),_c('div',{staticClass:"cara"},[_vm._m(2),_vm._v(" "),_c('ol',_vm._l((_vm.resep.howto),function(how){return _c('li',[_vm._v(_vm._s(how.how))])}))])])]),_vm._v(" "),_c('futer')],1)}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"recipedetails"},[_c('section',{attrs:{"id":"details"}},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"box-details box-details-title"},[_c('keep-alive',[_c('h1',{staticClass:"title-details"},[_vm._v(_vm._s(_vm.resep.title))])]),_vm._v(" "),_c('div',{staticClass:"author"},[_c('keep-alive',[_c('h3',[_vm._v("by "+_vm._s(_vm.resep.author))])])],1)],1),_vm._v(" "),_vm._m(0)])]),_vm._v(" "),_c('section',{attrs:{"id":"bahan-cara"}},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"bahan"},[_vm._m(1),_vm._v(" "),_c('ul',_vm._l((_vm.resep.ingredients),function(ingredient){return _c('li',[_vm._v(_vm._s(ingredient.ing))])}))]),_vm._v(" "),_c('div',{staticClass:"cara"},[_vm._m(2),_vm._v(" "),_c('ol',{staticClass:"langkah"},_vm._l((_vm.resep.howto),function(how){return _c('li',[_vm._v(_vm._s(how.how))])}))])])]),_vm._v(" "),_c('futer')],1)}
 var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"box-details box-details-image"},[_c('img',{attrs:{"src":__webpack_require__(3),"alt":"Details Image"}})])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"ingredients"},[_c('h3',[_vm._v("Ingredients")])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"howto"},[_c('h3',[_vm._v("How To")])])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
@@ -1157,4 +1157,4 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ })
 ],[20]);
-//# sourceMappingURL=app.ddd9312f8dde23790999.js.map
+//# sourceMappingURL=app.ac67487fdc43ce16d61a.js.map

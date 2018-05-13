@@ -35,7 +35,7 @@
                         <h3>How To</h3>
                     </div>
 
-                    <ol>
+                    <ol class="langkah">
                         <li v-for='how in resep.howto'>{{how.how}}</li>
                     </ol>
                 </div>
@@ -76,6 +76,11 @@
 	}
 </script>
 
-<style>
-	
+<style scoped>
+	@media screen and(max-width: 767px){
+        .langkah{
+            padding: 0;
+            text-align: justify;
+        }
+    }
 </style>
