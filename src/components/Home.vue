@@ -210,7 +210,7 @@
 
     <div class="more">
         <div class="container">
-            <a href="recipe.html"><button class="button1">Show More</button></a>
+            <a href="/recipes"><button class="button1">Show More</button></a>
         </div>
     </div>
 
@@ -230,6 +230,9 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
 
+<style>
+    #showcase{
+        position: relative;
+    }
 </style>
