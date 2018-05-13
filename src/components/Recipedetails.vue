@@ -60,7 +60,7 @@
         methods:{
             fetchResep(){
                 try{
-                    fetch('http://api-resepku-id.herokuapp.com/resep')
+                    fetch('https://api-resepku-id.herokuapp.com/resep')
                     .then(resp => resp.json())
                     .then((resp) => {
                         this.resep = resp;
